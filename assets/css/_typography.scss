@@ -1,0 +1,140 @@
+/*==================
+Author       : Dreambuzz
+Template Name: Maxeo - Digital Marketing Template
+Author URI : https://themeturn.com/
+Description: Maxeo,marketing,seo,agency,business,company,digital marketing,multipurpose,modern,bootstrap4,service
+Version      : 1.0
+================================*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Common
+2. Typography
+3. Navigation / #navbar
+4. Banner
+5. About
+6. Service
+7. Testimonials
+8. Blog
+9. Contact
+10. Footer / #footer
+-------------------------------------------------------------------*/
+
+
+// Fonts 
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&family=Questrial&display=swap');
+
+
+body ,html{
+    width: 100%;
+    height:100%;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(238, 122, 122, 0);
+    overflow-x: hidden;
+}
+
+body {
+    font-family: $secondary-font;
+    font-size: 16px;
+    line-height:30px;
+    margin: 0;
+    text-align: left;
+    background-color: $light;
+    font-weight: 400;
+    color: $font-color;
+    
+}
+
+p{
+    color:$font-color;
+    font-family: $secondary-font;
+    line-height:30px;
+    font-size: 16px;
+}
+
+/*--------------------
+ TYPOGRAPHY
+-----------------*/
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $primary-font; 
+    font-weight:700;
+    line-height: 1.4;
+    margin-bottom: .5rem;
+    color: $heading-color;
+
+}
+
+.h1,
+h1 {
+    font-size: 46px;
+}
+
+.h2,
+h2 {
+    font-size: 32px;
+}
+
+.h3,
+h3 {
+    font-size: 28px;
+}
+
+.h4,
+h4 {
+    font-size: 24px;
+}
+
+.h5,
+h5 {
+    font-size: 18px;
+}
+
+.h6,
+h6 {
+    font-size: 16px;
+}
+
+
+.text-sm{
+    font-size: 14px;
+}
+
+.h1 a,
+.h2 a,
+.h3 a,
+.h4 a,
+.h5 a,
+.h6 a,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a{
+    color: $heading-color;
+
+    &:hover{
+        color: $primary-color;
+    }
+}
+

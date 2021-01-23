@@ -1,0 +1,246 @@
+
+
+/*-------------------
+BUTTONS STYLE
+----------------=----*/
+
+.btn {
+  font-weight: 700;
+  position: relative;
+  text-transform: uppercase;
+  padding:13px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: $primary-font;
+  border: 2px solid transparent;
+   -webkit-transform: translateY(0px);
+         -moz-transform: translateY(0px);
+          -ms-transform: translateY(0px);
+           -o-transform: translateY(0px);
+              transform: translateY(0px);
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out ;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+}
+
+.btn:focus {
+  box-shadow: none !important
+}
+
+
+
+.btn-main{
+  background:$primary-color;
+  color: $light;
+  border-color:$primary-color;
+  &:hover{
+    color: $light;
+    border-color:$secondary-color;
+    background: $secondary-color;
+  }
+}
+
+.btn-main-2{
+  border-color:$secondary-color;
+  color: $light;
+  background:$secondary-color;
+  &:hover{
+      background:$primary-color;
+      color: $light;
+      border-color:$primary-color;
+  }
+}
+
+.btn-tp{
+  background:transparent;
+  color:$light;
+  border-color: $light;
+
+  &:hover{
+     background:$light ;
+     color:$primary-color;
+     border-color:$light;
+  }
+}
+
+.btn-solid-border{
+  background:transparent;
+  color: #2b3940;
+  border-color: #2b3940;
+
+  &:hover{
+     background:#2b3940;
+     color:$light;
+     border-color:#2b3940;
+  }
+}
+
+
+a {
+ color: $primary-color;
+  outline: none;
+  text-decoration: none;
+ -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+
+        &:hover{
+          color: $secondary-color;
+          outline: none;
+          text-decoration: none;
+        }
+}
+
+a:focus{
+  text-decoration: none;
+}
+
+ a:focus,a:visited {
+  outline: none;
+}
+
+
+ 
+ul,ol{
+  margin-bottom: 0px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+
+.pt-100{
+	padding-top:100px;
+}
+.pb-100{
+	padding-bottom:100px;
+}
+
+.form-control{
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+       transition: all 0.3s ease-in-out;
+  &:focus{
+    box-shadow:none;
+  }
+}
+
+
+
+/*====================
+Banner Area
+======================*/
+
+.section-padding{
+  padding:100px 0px;
+}
+
+.heading{
+  text-align: center;
+  margin-bottom:60px;
+  h2{
+      font-size: 42px;
+  }
+}
+
+
+.page-header{
+  padding:90px 0px;
+  background:#F4F5F8;
+  position:relative;
+  .title-block{
+   text-align: center; 
+    h1{
+      color:#000;
+      line-height: 50px;
+      margin-bottom: 20px;
+      text-transform: capitalize;
+    }
+    ul li {
+      a{
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+
+.page-wrapper{
+  padding:100px 0px;
+}
+
+.bg-grey{
+  background:#F7F5F4;
+}
+
+.mt--105{
+  margin-top:-105px;
+}
+
+
+.section-heading{
+  margin-bottom:70px;
+  h3{
+    font-size: 38px;
+    margin:10px 0px 10px;
+    line-height: 44px;
+  }
+  p{
+    color: #222222;
+  }
+}
+
+.center-heading{
+  text-align:Center;
+  p{
+    padding:0px 70px;
+  }
+}
+
+.subheading{
+  text-transform: uppercase;
+  font-family: $primary-font;
+  font-weight: 600;
+  font-size: 13px;
+  color:$primary-color;
+  letter-spacing: 2px;
+}
+
+button:focus{
+  outline: none;
+}
+
+.bg-gray{
+  background:#F4F5F8;
+}
+.bg-black{
+  background:#1D292E;
+}
+
+.text-underline{
+  text-decoration: underline;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.btn-sm{
+  padding:10px 24px;
+  font-size: 14px;
+}
+
+.section-sm{
+  padding:60px 0px;
+}
+
+.mb--90{
+  margin-bottom: -90px;
+}
+.pt-190{
+  padding-top: 190px!important;
+}
